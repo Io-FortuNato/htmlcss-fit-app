@@ -46,6 +46,7 @@ body {
     position: relative;
 }
 
+/* prima modifica */
 .stats-container::before {
     content: "🔥";
     display: block;
@@ -56,6 +57,22 @@ body {
     z-index: 10;
     transform: translate(222px, 10px);
 }
+/* fine prima modifica */
+
+/* seconda modifica */
+.stats-grid:nth-child(3) {
+    background-color: #667eea;
+    color: white;
+}
+
+.stats-grid:nth-child(3) .stat-number {
+    color: white
+}
+
+.stats-grid:nth-child(3) .stat-label {
+    color: white;
+}
+/* fine seconda modifica */
 
 .stat-number {
 	font-size: 2.5rem;
