@@ -88,6 +88,28 @@ body {
 }
 /* fine quarta modifica */
 
+/* inizio quinta modifica */
+.exercise-item:nth-child(1) {
+    background-color: rgba(144, 238, 144, 0.695);
+    border-left: 5px solid rgba(0, 128, 0, 0.781);
+}
+.exercise-item:nth-child(4) {
+    background-color: rgba(144, 238, 144, 0.503);
+    border-left: 5px solid rgba(0, 128, 0, 0.77);
+}
+/* fine quinta modifica */
+
+/* inizio sesta modifica */
+.exercise-item:nth-child(2)::before {
+    content: "⚡";
+}
+
+.exercise-item:nth-child(4)::before {
+    content: "⚡";
+}
+/* fine sesta modifica */
+
+
 .stat-number {
 	font-size: 2.5rem;
 	font-weight: bold;
