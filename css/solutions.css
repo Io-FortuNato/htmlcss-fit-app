@@ -111,7 +111,9 @@ input:focus {
 }
 /* fine settima ed ottava modifica */
 
+/* la nona l'ho messa sotto il button originale */
 
+/* inizio decima modifica */
 
 
 .stat-number {
@@ -239,7 +241,7 @@ input:focus {
 }
 
 .save-btn {
-	background: #667eea;
+	background: #0391fe;
 	color: white;
 	border: none;
 	padding: 15px 25px;
@@ -248,7 +250,17 @@ input:focus {
 	cursor: pointer;
 	width: 100%;
 	margin-top: 15px;
+    transition: all 0.3s;
+    box-shadow: #1f00d1;
 }
+
+/* inizio nona modifica */
+.save-btn:hover {
+    background-color: #1f00d1;
+    transform: translateY(-6px);
+    box-shadow: 0 4px 8px
+    }
+/* fine nona modifica */
 
 /* Progress Bar */
 .progress-section {
