@@ -47,15 +47,8 @@ body {
 }
 
 /* prima modifica */
-.stats-container::before {
-    content: "🔥";
-    display: block;
-    margin-right: 4px;
-    font-size: 20px;
-    text-align: center;
-    position: absolute;
-    z-index: 10;
-    transform: translate(222px, 10px);
+.stats-grid:nth-child(1)::before {
+content: "🔥";
 }
 /* fine prima modifica */
 
@@ -108,6 +101,17 @@ body {
     content: "⚡";
 }
 /* fine sesta modifica */
+
+/* settima ed ottava modifica */
+input:focus {
+    border: 6px solid blue;
+    border-color: blue;
+    background-color: lightblue;
+    transition: border 0.2s; box-shadow: 0.2s;
+}
+/* fine settima ed ottava modifica */
+
+
 
 
 .stat-number {
